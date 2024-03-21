@@ -1,14 +1,9 @@
 <?php
 
-namespace Controller;
-
-use PDO;
-use PDOException;
-
-class Controller
+class ControllerModel
 {
-  private $conn = null;
 
+  protected $conn;
   public function __construct()
   {
     $this->conn = $this->conexao();
@@ -16,11 +11,10 @@ class Controller
   public static function conexao()
   {
     try {
-      $host = "localhost";
-      $dbname = "desafio";
-      $username = "root";
-      $password = "root";
-
+      $host = DB_HOST;
+      $dbname = DB_NAME;
+      $username = DB_USER;
+      $password = DB_PASS;  
       return new PDO(
         "mysql:host=$host;dbname=$dbname",
         $username,
