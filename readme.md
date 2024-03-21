@@ -1,3 +1,8 @@
+projeto possuiu  unico usuario para login
+usuario = oscar@email.com
+senha = a1234567
+
+
 Descrição
 
 Este projeto é um CRUD completo para gerenciar endereços, utilizando PHP 8.2, MySQL 8.0.36 e o template SB Admin 2 da StartBootstrap.
@@ -27,16 +32,4 @@ Etapas do Projeto
 5. Servidor
 
     Configuração do Nginx (arquivo conf.nginx).
-
-Observações
-
-    Este README é um resumo do projeto. Documentação completa e código-fonte disponíveis no repositório.
-    O projeto está em constante desenvolvimento e sujeito a alterações.
-
-Próximos Passos
-
-    Implementação de novas funcionalidades:
-        Autenticação de usuários
-        Controle de acesso
-        Upload de arquivos
 
